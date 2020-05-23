@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<form action="/calc" method="get">
+    <input type="text" th:value="${var1}" name="var1" id="arg1"/>
+    <br/>+</br>
+    <input type="text" th:value="${var2}" name="var2" id="arg2"/>
+    <br/>=</br>
+    <input type="text" th:value="${var3}" id="result"/>
+    <br/><input type="submit" value="рассчитать">
+</form>
+<br/>
+<a href="/">На главную</a>
+</body>
+</html>
